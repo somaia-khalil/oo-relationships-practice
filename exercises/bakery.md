@@ -10,6 +10,10 @@ You are building an app for a national bakery chain
   - a dessert has many ingredients
   - an ingredient belongs to a dessert
     - every ingredient has a calorie count
+   # bakery many desert 
+   # desert belongs to a bakery 
+
+       integredint -> desert -> bakery 
 
 Write out the relationships using has_many, belongs_to and has_many_through.
 Create the necessary methods to connect these classes.
@@ -53,3 +57,16 @@ Create the necessary methods to connect these classes.
       'chocolate mousse', 'chocolate']
     - make sure you aren't just looking for exact matches (like 'chocolate' ==
       'chocolate')
+
+
+<!-- 1) How many classes I have : 
+2) the relation between each class and another  < > depend on the case  : 
+
+cars -> factory -> company 
+consaltns  <- calls ->  customer
+Aprt  <- trip ->   guest  
+
+
+
+3) based on relation I will add the instance of one class to the class belongs 
+4) selecct , map  -->
