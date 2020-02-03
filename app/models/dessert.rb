@@ -15,8 +15,6 @@ class Desserts
     # should return an array of ingredients for the dessert
     Ingredients.all.select do |int|
         int.dessert == self
-    end
-        
     end 
     def bakery
     # should return the bakery object for the dessert
